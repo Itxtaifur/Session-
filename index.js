@@ -24,8 +24,8 @@ async function start() {
             logger: pino({
                 level: 'silent'
             }),
-            printQRInTerminal: false,
-            browser: ['Bot-MD', 'safari', '3.3'],
+            printQRInTerminal: true,
+            browser: ['Taifur-X 2.1', 'safari', '3.3'],
             auth: state,
             version
         })
